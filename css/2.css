@@ -1,0 +1,164 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #ecf9fc;
+}
+p {
+	margin: 0;
+}
+p span{
+	background: yellow;
+}
+#wrap {
+	width: 680px;
+	margin: 50px auto;
+	position: relative;
+	box-shadow: 0 0 20px #2d2d2d;
+	border-radius: 10px;
+	background: #fff;
+	padding: 30px;
+	overflow: hidden;
+}
+.top{
+	overflow: hidden;
+}
+#wrap p{
+	border:1px solid #abdde7;
+	background: #eef8fa;
+	border-radius: 3px;
+	width: 500px;
+	padding: 20px;
+	font-family: '微软雅黑';
+	font-size: 20px;
+	line-height: 36px;
+	float: left;
+}
+#buttons {
+	float: right;
+}
+#buttons a {
+	text-decoration: none;
+	margin-bottom: 5px;
+	color: #fff;
+	width: 120px;
+	line-height: 70px;
+	
+	text-align: center;
+	font-family: '微软雅黑';
+	font-size: 20px;
+	display: block;
+	background: #90e2f2;
+	border-radius: 5px;
+}
+#buttons a:hover {
+	background: #90e2f2;
+}
+#buttons span{
+	display: none;
+}
+#buttons span a{
+	background: #90e2f2;
+}
+#buttons span a:nth-of-type(1){
+	background: #a8a6f5;
+}
+#buttons span a:nth-of-type(2){
+	background: #9fe7a9;
+	margin-bottom: 0px;
+}
+
+#toolbox {
+	width: 640px;
+	padding: 20px;
+	background: #E7E7B5;
+	font-size: 0;
+	display: none;
+	position: relative;
+	margin-top: 50px;
+	border: 1px solid #abdde7;
+	background: #eef8fa;
+	border-radius: 5px;
+}
+
+#search, #replace {
+	border-top: 1px solid #90e2f2;
+	margin-top: 5px;
+	display: none;
+}
+
+.search #search{
+	display: block;
+}
+.search #replace{
+	display: none;
+}
+.search span:nth-of-type(1){
+	background: #a8a6f5;
+	color: #fff;
+}
+
+.replace #search{
+	display: none;
+}
+.replace #replace{
+	display: block;
+}
+.replace span:nth-of-type(2){
+	background: #9fe7a9;
+	color: #fff;
+}
+
+
+#toolbox span {
+	font-family: '微软雅黑';
+	font-size: 20px;
+	width: 80px;
+	line-height: 40px;
+	display: inline-block;
+	cursor: pointer;
+	text-align: center;
+}
+#search input[type="text"]{
+	width: 400px;
+}
+#replace input[type="text"]{
+	width: 190px;
+}
+#search input[type="text"], #replace input[type="text"] {
+	margin: 20px 0px;
+	padding: 2px;
+	font-size: 24px;
+	margin-right: 10px;
+	border: 1px solid #abdde7;
+	background: #fff;
+    height: 48px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+#search input[type="button"]{
+	background: #a8a6f5;
+}
+#replace input[type="button"]{
+	background: #9fe7a9;
+}
+#search input[type="button"], #replace input[type="button"] {
+	margin: 20px 0;
+	height: 30px;
+	width: 56px;
+	font-size: 20px;
+	width: 96px;
+	height: 52px;
+	color: #fff;
+	font-size: 20px;
+	border: none;
+	vertical-align: middle;
+	font-family: "微软雅黑";
+}
+#close {
+	font-size: 24px;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	cursor: pointer;
+	color: #90e2f2;
+}
